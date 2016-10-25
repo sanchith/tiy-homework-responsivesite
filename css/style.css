@@ -1,0 +1,230 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.header {
+  height: 25px;
+  background-color: white;
+}
+
+li {
+  display: inline;
+}
+
+.hdrmenu {
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+
+.hdrtxt {
+  text-decoration: none;
+  font-size: small;
+  color: black;
+  padding-right: 15px;
+}
+
+.hdrlogotxt {
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  height: 300px;
+}
+
+.herotxt {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.herobox {
+  padding-top: 10%;
+}
+
+.mainbody {
+  /*width: 75%;*/
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sec1col1, .sec1col2, .sec1col3 {
+  height: 500px;
+  width: 31.7%;
+  border: 1px solid silver;
+  float: left;
+}
+
+.sec1col2 {
+  margin: 0 2%;
+}
+
+.greenbox {
+  height: 160px;
+  background-color: #519251;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.topboxtxt1, .topboxtxt2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.topboxtxt1 {
+  padding-top: 40px;
+}
+
+.topboxtxt2 {
+  padding-bottom: 40px;
+}
+
+.sec1txt {
+  background-color: lightgrey;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  border: 1px solid silver;
+}
+
+.choosebutton {
+  height: 30px;
+  width: 75px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding-top: 10px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bluebox {
+  height: 160px;
+  background-color: #2c4985;
+}
+
+.blackbox {
+  height: 160px;
+  background-color: black;
+}
+
+.section2 {
+  /*clear: both;*/
+  padding-top: 20px;
+}
+
+/*.row1col1 {
+  clear: both;
+}*/
+
+.row1col1 {
+  clear: both;
+  height: 200px;
+  width: 47%;
+  /*border: 2px solid black;*/
+  float: left;
+  margin-top: 40px;
+}
+
+.row1col2 {
+  height: 200px;
+  width: 47%;
+  float: right;
+  margin-top: 40px;
+  /*border: 2px solid black;*/
+}
+
+.row2col1 {
+  clear: both;
+  height: 200px;
+  width: 47%;
+  float: left;
+  /*border: 2px solid black;*/
+  margin-top: 40px;
+}
+
+.row2col2 {
+  height: 200px;
+  width: 47%;
+  float: right;
+  /*border: 2px solid black;*/
+  margin-top: 40px;
+}
+
+.sec2txt {
+  background-color: white;
+  padding: 5px;
+  color: black;
+  text-align: left;
+  line-height: 25px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+.footer {
+  clear: both;
+  height: 75px;
+  background-color: black;
+}
+
+.footertxt {
+  color: white;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.footertxtunderline {
+  text-decoration: underline;
+}
+
+.footertxtfade {
+  opacity: .5;
+}
+
+/*Breakpoint 4 - 979px and larger*/
+@media (min-width: 979px) {
+  .mainbody {
+    width: 960px;
+  }
+}
+
+/*Breakpoint 3 - 978px and smaller*/
+@media (max-width: 978px) {
+  .mainbody {
+    width: 99%;
+  }
+}
+
+/*Breakpoint 2 and 1 - 767px and smaller*/
+@media (max-width: 767px) {
+  .sec1col1, .sec1col2, .sec1col3, .row1col1, .row1col2, .row2col1, .row2col2 {
+    float: none;
+    width: 99%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sec1col2 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .row1col1, .row1col2, .row2col1, .row2col2 {
+    height: 135px;
+    padding-bottom: 20px;
+  }
+}
