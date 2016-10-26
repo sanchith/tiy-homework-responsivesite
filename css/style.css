@@ -42,7 +42,9 @@ li {
 }
 
 .herobox {
-  padding-top: 10%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .mainbody {
@@ -122,15 +124,10 @@ h1 {
   padding-top: 20px;
 }
 
-/*.row1col1 {
-  clear: both;
-}*/
-
 .row1col1 {
   clear: both;
   height: 200px;
   width: 47%;
-  /*border: 2px solid black;*/
   float: left;
   margin-top: 40px;
 }
@@ -140,7 +137,6 @@ h1 {
   width: 47%;
   float: right;
   margin-top: 40px;
-  /*border: 2px solid black;*/
 }
 
 .row2col1 {
@@ -148,7 +144,6 @@ h1 {
   height: 200px;
   width: 47%;
   float: left;
-  /*border: 2px solid black;*/
   margin-top: 40px;
 }
 
@@ -156,7 +151,6 @@ h1 {
   height: 200px;
   width: 47%;
   float: right;
-  /*border: 2px solid black;*/
   margin-top: 40px;
 }
 
@@ -172,7 +166,7 @@ h3 {
   padding-bottom: 20px;
 }
 
-.footer {
+footer {
   clear: both;
   height: 75px;
   background-color: black;
@@ -212,17 +206,11 @@ h3 {
     float: none;
     width: 99%;
   }
-}
-
-@media (max-width: 767px) {
   .sec1col2 {
     margin: 0;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-}
-
-@media (max-width: 767px) {
   .row1col1, .row1col2, .row2col1, .row2col2 {
     height: 135px;
     padding-bottom: 20px;
